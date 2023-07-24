@@ -13,9 +13,9 @@
 } */
 
 
-/*const removeFromArray = function (array, ...removeThis) {
+const removeFromArray = function (array, ...removeThis) {
     const result = [];
-    console.log(removeThis.length);
+    
     for (let num of array){                
         if (!removeThis.includes(num)){
             result.push(num); 
@@ -23,8 +23,9 @@
 
     }
     return result;
-}*/
 
+
+/*
 const removeFromArray = function (array, ...removeThis) {
     //let result = [];
     return array.filter((num) => {
@@ -32,7 +33,7 @@ const removeFromArray = function (array, ...removeThis) {
         return !removeThis.includes(num);
 
     });
-
+*/
 
 
 
